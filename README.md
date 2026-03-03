@@ -61,7 +61,6 @@ my-portfolio/
 ├── index.html          # Main HTML file (single page)
 ├── style.css           # All styles
 ├── main.js             # Theme toggle, nav, animations
-└── ValtonGara_Resume.pdf
 ```
 
 ## Contact
