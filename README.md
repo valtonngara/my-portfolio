@@ -1,4 +1,4 @@
-# Valton Gara — Portfolio
+# Valton Gara - Portfolio
 
 Personal portfolio website for **Valton Gara**, Software Engineer specializing in Angular, .NET, TypeScript, and enterprise automation.
 
@@ -8,17 +8,17 @@ Personal portfolio website for **Valton Gara**, Software Engineer specializing i
 
 ## Overview
 
-A single-page portfolio built with vanilla HTML, CSS, and JavaScript — no frameworks, no build step, just fast and lean.
+A single-page portfolio built with vanilla HTML, CSS, and JavaScript - no frameworks, no build step, just fast and lean.
 
 Sections:
 
-- **Hero** — intro with tech stack highlights
-- **About** — background and what I do
-- **Skills** — technologies and tools
-- **Experience** — work history
-- **Education** — academic background
-- **Work** — featured projects
-- **Contact** — how to reach me
+- **Hero** - intro with tech stack highlights
+- **About** - background and what I do
+- **Skills** - technologies and tools
+- **Experience** - work history
+- **Education** - academic background
+- **Work** - featured projects
+- **Contact** - how to reach me
 
 ## Features
 
@@ -38,7 +38,7 @@ Sections:
 
 ## Getting Started
 
-Clone the repo and open `index.html` directly in a browser — no install needed.
+Clone the repo and open `index.html` directly in a browser - no install needed.
 
 ```bash
 git clone https://github.com/your-username/my-portfolio.git
