@@ -218,6 +218,12 @@ form.addEventListener('submit', async (e) => {
     setFormStatus('Please slow down and try again.', 'error');
     return;
   }
+  // 3. Cloudflare Turnstile token
+  const turnstileToken = form.querySelector('[name="cf-turnstile-response"]')?.value;
+  if (!turnstileToken) {
+    setFormStatus('Please complete the security check.', 'error');
+    return;
+  }
   // ─────────────────────────────────────────────
 
   if (!name || !email || !message) {
@@ -258,6 +264,8 @@ form.addEventListener('submit', async (e) => {
   } finally {
     submitBtn.innerHTML = SUBMIT_BTN_DEFAULT;
     submitBtn.disabled = false;
+    // Reset Turnstile widget so the user can submit again if needed
+    if (window.turnstile) window.turnstile.reset();
   }
 });
 

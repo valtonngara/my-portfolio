@@ -26,6 +26,11 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://challenges.cloudflare.com/turnstile/v0/api.js"
+      async
+      defer
+    ></script>
   </head>
 
   <body>
@@ -1121,7 +1126,7 @@
                     id="contact-name"
                     name="name"
                     class="form-input"
-                    placeholder="Jane Schmidt"
+                    placeholder="Example Name"
                     required
                   />
                 </div>
@@ -1134,7 +1139,7 @@
                     id="contact-email"
                     name="email"
                     class="form-input"
-                    placeholder="jane@company.de"
+                    placeholder="example@company.com"
                     required
                   />
                 </div>
@@ -1169,6 +1174,12 @@
                 aria-hidden="true"
                 class="form-honeypot"
               />
+              <!-- Cloudflare Turnstile -->
+              <div
+                class="cf-turnstile"
+                data-sitekey="0x4AAAAAACmZjpOpoXnNr_jg"
+                data-theme="auto"
+              ></div>
               <button
                 type="submit"
                 class="btn btn-primary form-submit"
